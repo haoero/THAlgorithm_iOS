@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30E638FD1E0ABC730075DC78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E638FC1E0ABC730075DC78 /* main.m */; };
+		30E639001E0ABC730075DC78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E638FF1E0ABC730075DC78 /* AppDelegate.m */; };
+		30E639031E0ABC730075DC78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E639021E0ABC730075DC78 /* ViewController.m */; };
+		30E639061E0ABC730075DC78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E639041E0ABC730075DC78 /* Main.storyboard */; };
+		30E639081E0ABC730075DC78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E639071E0ABC730075DC78 /* Assets.xcassets */; };
+		30E6390B1E0ABC730075DC78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E639091E0ABC730075DC78 /* LaunchScreen.storyboard */; };
+		30E639161E0ABC730075DC78 /* THAlgorithm_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E639151E0ABC730075DC78 /* THAlgorithm_iOSTests.m */; };
+		30E639291E0ABCBF0075DC78 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E639261E0ABCBF0075DC78 /* TreeNode.m */; };
+		30E6392A1E0ABCBF0075DC78 /* TreePair.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E639281E0ABCBF0075DC78 /* TreePair.m */; };
+		30E6392D1E0ABCEB0075DC78 /* THAlgorithmArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E6392C1E0ABCEB0075DC78 /* THAlgorithmArray.m */; };
+		30E6392E1E0ABCEB0075DC78 /* THAlgorithmArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E6392C1E0ABCEB0075DC78 /* THAlgorithmArray.m */; };
+		30E639311E0ABD040075DC78 /* THAlgorithmHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E639301E0ABD040075DC78 /* THAlgorithmHeap.m */; };
+		30E639321E0ABD040075DC78 /* THAlgorithmHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E639301E0ABD040075DC78 /* THAlgorithmHeap.m */; };
+		30E639351E0ABD190075DC78 /* THAlgorithmString.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E639341E0ABD190075DC78 /* THAlgorithmString.m */; };
+		30E639361E0ABD190075DC78 /* THAlgorithmString.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E639341E0ABD190075DC78 /* THAlgorithmString.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30E639121E0ABC730075DC78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30E638F01E0ABC730075DC78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30E638F71E0ABC730075DC78;
+			remoteInfo = THAlgorithm_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30E638F81E0ABC730075DC78 /* THAlgorithm_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THAlgorithm_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E638FC1E0ABC730075DC78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30E638FE1E0ABC730075DC78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30E638FF1E0ABC730075DC78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30E639011E0ABC730075DC78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30E639021E0ABC730075DC78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30E639051E0ABC730075DC78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30E639071E0ABC730075DC78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30E6390A1E0ABC730075DC78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30E6390C1E0ABC730075DC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E639111E0ABC730075DC78 /* THAlgorithm_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THAlgorithm_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E639151E0ABC730075DC78 /* THAlgorithm_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THAlgorithm_iOSTests.m; sourceTree = "<group>"; };
+		30E639171E0ABC730075DC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E639251E0ABCBF0075DC78 /* TreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
+		30E639261E0ABCBF0075DC78 /* TreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
+		30E639271E0ABCBF0075DC78 /* TreePair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreePair.h; sourceTree = "<group>"; };
+		30E639281E0ABCBF0075DC78 /* TreePair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreePair.m; sourceTree = "<group>"; };
+		30E6392B1E0ABCEB0075DC78 /* THAlgorithmArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THAlgorithmArray.h; sourceTree = "<group>"; };
+		30E6392C1E0ABCEB0075DC78 /* THAlgorithmArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THAlgorithmArray.m; sourceTree = "<group>"; };
+		30E6392F1E0ABD040075DC78 /* THAlgorithmHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THAlgorithmHeap.h; sourceTree = "<group>"; };
+		30E639301E0ABD040075DC78 /* THAlgorithmHeap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THAlgorithmHeap.m; sourceTree = "<group>"; };
+		30E639331E0ABD190075DC78 /* THAlgorithmString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THAlgorithmString.h; sourceTree = "<group>"; };
+		30E639341E0ABD190075DC78 /* THAlgorithmString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THAlgorithmString.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30E638F51E0ABC730075DC78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E6390E1E0ABC730075DC78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30E638EF1E0ABC730075DC78 = {
+			isa = PBXGroup;
+			children = (
+				30E639201E0ABCBF0075DC78 /* Classes */,
+				30E638FA1E0ABC730075DC78 /* THAlgorithm_iOS */,
+				30E639141E0ABC730075DC78 /* THAlgorithm_iOSTests */,
+				30E638F91E0ABC730075DC78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30E638F91E0ABC730075DC78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30E638F81E0ABC730075DC78 /* THAlgorithm_iOS.app */,
+				30E639111E0ABC730075DC78 /* THAlgorithm_iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30E638FA1E0ABC730075DC78 /* THAlgorithm_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				30E638FE1E0ABC730075DC78 /* AppDelegate.h */,
+				30E638FF1E0ABC730075DC78 /* AppDelegate.m */,
+				30E639011E0ABC730075DC78 /* ViewController.h */,
+				30E639021E0ABC730075DC78 /* ViewController.m */,
+				30E639041E0ABC730075DC78 /* Main.storyboard */,
+				30E639071E0ABC730075DC78 /* Assets.xcassets */,
+				30E639091E0ABC730075DC78 /* LaunchScreen.storyboard */,
+				30E6390C1E0ABC730075DC78 /* Info.plist */,
+				30E638FB1E0ABC730075DC78 /* Supporting Files */,
+			);
+			path = THAlgorithm_iOS;
+			sourceTree = "<group>";
+		};
+		30E638FB1E0ABC730075DC78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30E638FC1E0ABC730075DC78 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30E639141E0ABC730075DC78 /* THAlgorithm_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				30E639151E0ABC730075DC78 /* THAlgorithm_iOSTests.m */,
+				30E639171E0ABC730075DC78 /* Info.plist */,
+			);
+			path = THAlgorithm_iOSTests;
+			sourceTree = "<group>";
+		};
+		30E639201E0ABCBF0075DC78 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				30E639211E0ABCBF0075DC78 /* Array */,
+				30E639221E0ABCBF0075DC78 /* Heap */,
+				30E639231E0ABCBF0075DC78 /* String */,
+				30E639241E0ABCBF0075DC78 /* Tree */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		30E639211E0ABCBF0075DC78 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				30E6392B1E0ABCEB0075DC78 /* THAlgorithmArray.h */,
+				30E6392C1E0ABCEB0075DC78 /* THAlgorithmArray.m */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		30E639221E0ABCBF0075DC78 /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				30E6392F1E0ABD040075DC78 /* THAlgorithmHeap.h */,
+				30E639301E0ABD040075DC78 /* THAlgorithmHeap.m */,
+			);
+			path = Heap;
+			sourceTree = "<group>";
+		};
+		30E639231E0ABCBF0075DC78 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				30E639331E0ABD190075DC78 /* THAlgorithmString.h */,
+				30E639341E0ABD190075DC78 /* THAlgorithmString.m */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		30E639241E0ABCBF0075DC78 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				30E639251E0ABCBF0075DC78 /* TreeNode.h */,
+				30E639261E0ABCBF0075DC78 /* TreeNode.m */,
+				30E639271E0ABCBF0075DC78 /* TreePair.h */,
+				30E639281E0ABCBF0075DC78 /* TreePair.m */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30E638F71E0ABC730075DC78 /* THAlgorithm_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E6391A1E0ABC730075DC78 /* Build configuration list for PBXNativeTarget "THAlgorithm_iOS" */;
+			buildPhases = (
+				30E638F41E0ABC730075DC78 /* Sources */,
+				30E638F51E0ABC730075DC78 /* Frameworks */,
+				30E638F61E0ABC730075DC78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = THAlgorithm_iOS;
+			productName = THAlgorithm_iOS;
+			productReference = 30E638F81E0ABC730075DC78 /* THAlgorithm_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30E639101E0ABC730075DC78 /* THAlgorithm_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E6391D1E0ABC730075DC78 /* Build configuration list for PBXNativeTarget "THAlgorithm_iOSTests" */;
+			buildPhases = (
+				30E6390D1E0ABC730075DC78 /* Sources */,
+				30E6390E1E0ABC730075DC78 /* Frameworks */,
+				30E6390F1E0ABC730075DC78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30E639131E0ABC730075DC78 /* PBXTargetDependency */,
+			);
+			name = THAlgorithm_iOSTests;
+			productName = THAlgorithm_iOSTests;
+			productReference = 30E639111E0ABC730075DC78 /* THAlgorithm_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30E638F01E0ABC730075DC78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "HAOERO TANG";
+				TargetAttributes = {
+					30E638F71E0ABC730075DC78 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					30E639101E0ABC730075DC78 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30E638F71E0ABC730075DC78;
+					};
+				};
+			};
+			buildConfigurationList = 30E638F31E0ABC730075DC78 /* Build configuration list for PBXProject "THAlgorithm_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30E638EF1E0ABC730075DC78;
+			productRefGroup = 30E638F91E0ABC730075DC78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30E638F71E0ABC730075DC78 /* THAlgorithm_iOS */,
+				30E639101E0ABC730075DC78 /* THAlgorithm_iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30E638F61E0ABC730075DC78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E6390B1E0ABC730075DC78 /* LaunchScreen.storyboard in Resources */,
+				30E639081E0ABC730075DC78 /* Assets.xcassets in Resources */,
+				30E639061E0ABC730075DC78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E6390F1E0ABC730075DC78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30E638F41E0ABC730075DC78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E639351E0ABD190075DC78 /* THAlgorithmString.m in Sources */,
+				30E6392A1E0ABCBF0075DC78 /* TreePair.m in Sources */,
+				30E639031E0ABC730075DC78 /* ViewController.m in Sources */,
+				30E639001E0ABC730075DC78 /* AppDelegate.m in Sources */,
+				30E6392D1E0ABCEB0075DC78 /* THAlgorithmArray.m in Sources */,
+				30E638FD1E0ABC730075DC78 /* main.m in Sources */,
+				30E639291E0ABCBF0075DC78 /* TreeNode.m in Sources */,
+				30E639311E0ABD040075DC78 /* THAlgorithmHeap.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E6390D1E0ABC730075DC78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E639361E0ABD190075DC78 /* THAlgorithmString.m in Sources */,
+				30E639161E0ABC730075DC78 /* THAlgorithm_iOSTests.m in Sources */,
+				30E6392E1E0ABCEB0075DC78 /* THAlgorithmArray.m in Sources */,
+				30E639321E0ABD040075DC78 /* THAlgorithmHeap.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30E639131E0ABC730075DC78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30E638F71E0ABC730075DC78 /* THAlgorithm_iOS */;
+			targetProxy = 30E639121E0ABC730075DC78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30E639041E0ABC730075DC78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30E639051E0ABC730075DC78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30E639091E0ABC730075DC78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30E6390A1E0ABC730075DC78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30E639181E0ABC730075DC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30E639191E0ABC730075DC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30E6391B1E0ABC730075DC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = THAlgorithm_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.th.THAlgorithm-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30E6391C1E0ABC730075DC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = THAlgorithm_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.th.THAlgorithm-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		30E6391E1E0ABC730075DC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = THAlgorithm_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.th.THAlgorithm-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THAlgorithm_iOS.app/THAlgorithm_iOS";
+			};
+			name = Debug;
+		};
+		30E6391F1E0ABC730075DC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = THAlgorithm_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.th.THAlgorithm-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THAlgorithm_iOS.app/THAlgorithm_iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30E638F31E0ABC730075DC78 /* Build configuration list for PBXProject "THAlgorithm_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E639181E0ABC730075DC78 /* Debug */,
+				30E639191E0ABC730075DC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E6391A1E0ABC730075DC78 /* Build configuration list for PBXNativeTarget "THAlgorithm_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E6391B1E0ABC730075DC78 /* Debug */,
+				30E6391C1E0ABC730075DC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E6391D1E0ABC730075DC78 /* Build configuration list for PBXNativeTarget "THAlgorithm_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E6391E1E0ABC730075DC78 /* Debug */,
+				30E6391F1E0ABC730075DC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30E638F01E0ABC730075DC78 /* Project object */;
+}
