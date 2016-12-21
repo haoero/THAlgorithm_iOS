@@ -10,4 +10,9 @@
 
 @interface THAlgorithmString : NSObject
 
+- (NSInteger)lengthOfLongestSubstring:(NSString *)s;
+
+- (NSString *)longestPalindorme:(NSString *)s;
+
+
 @end

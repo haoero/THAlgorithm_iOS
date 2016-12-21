@@ -22,6 +22,7 @@
 		30E639321E0ABD040075DC78 /* THAlgorithmHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E639301E0ABD040075DC78 /* THAlgorithmHeap.m */; };
 		30E639351E0ABD190075DC78 /* THAlgorithmString.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E639341E0ABD190075DC78 /* THAlgorithmString.m */; };
 		30E639361E0ABD190075DC78 /* THAlgorithmString.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E639341E0ABD190075DC78 /* THAlgorithmString.m */; };
+		30E639381E0AC5EC0075DC78 /* StringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E639371E0AC5EC0075DC78 /* StringTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		30E639301E0ABD040075DC78 /* THAlgorithmHeap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THAlgorithmHeap.m; sourceTree = "<group>"; };
 		30E639331E0ABD190075DC78 /* THAlgorithmString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THAlgorithmString.h; sourceTree = "<group>"; };
 		30E639341E0ABD190075DC78 /* THAlgorithmString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THAlgorithmString.m; sourceTree = "<group>"; };
+		30E639371E0AC5EC0075DC78 /* StringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 			children = (
 				30E639331E0ABD190075DC78 /* THAlgorithmString.h */,
 				30E639341E0ABD190075DC78 /* THAlgorithmString.m */,
+				30E639371E0AC5EC0075DC78 /* StringTests.m */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				30E639361E0ABD190075DC78 /* THAlgorithmString.m in Sources */,
 				30E639161E0ABC730075DC78 /* THAlgorithm_iOSTests.m in Sources */,
 				30E6392E1E0ABCEB0075DC78 /* THAlgorithmArray.m in Sources */,
+				30E639381E0AC5EC0075DC78 /* StringTests.m in Sources */,
 				30E639321E0ABD040075DC78 /* THAlgorithmHeap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
