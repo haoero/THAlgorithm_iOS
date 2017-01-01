@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		302309D91E0C01DB008F34AE /* ArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 302309D81E0C01DB008F34AE /* ArrayTests.m */; };
 		30E638FD1E0ABC730075DC78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E638FC1E0ABC730075DC78 /* main.m */; };
 		30E639001E0ABC730075DC78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E638FF1E0ABC730075DC78 /* AppDelegate.m */; };
 		30E639031E0ABC730075DC78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E639021E0ABC730075DC78 /* ViewController.m */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		302309D81E0C01DB008F34AE /* ArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayTests.m; sourceTree = "<group>"; };
 		30E638F81E0ABC730075DC78 /* THAlgorithm_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THAlgorithm_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E638FC1E0ABC730075DC78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		30E638FE1E0ABC730075DC78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 			children = (
 				30E6392B1E0ABCEB0075DC78 /* THAlgorithmArray.h */,
 				30E6392C1E0ABCEB0075DC78 /* THAlgorithmArray.m */,
+				302309D81E0C01DB008F34AE /* ArrayTests.m */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				30E6392E1E0ABCEB0075DC78 /* THAlgorithmArray.m in Sources */,
 				30E639381E0AC5EC0075DC78 /* StringTests.m in Sources */,
 				30E639321E0ABD040075DC78 /* THAlgorithmHeap.m in Sources */,
+				302309D91E0C01DB008F34AE /* ArrayTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,4 +10,11 @@
 
 @interface THAlgorithmArray : NSObject
 
+
+#pragma mark - move zeros
+
+- (void)moveZerosToEnd:(NSMutableArray *)nums;
+
+- (void)moveZerosToBegin:(NSMutableArray *)nums;
+
 @end
