@@ -103,6 +103,12 @@
     }
     
     NSLog(@"all parenthesese = %@", [self.algorithmString generateParentheses:3]);
+    
+    NSString *s1 = @")()())";
+    NSString *s2 = @"()(((()(()))()";
+    XCTAssertEqual(4, [self.algorithmString longestValidParentheses:s1]);
+    XCTAssertEqual(10, [self.algorithmString longestValidParentheses:s2]);
+
 }
 
 @end

@@ -44,4 +44,8 @@
 
 - (NSArray *)generateParentheses:(NSInteger)n;
 
+#pragma mark - longest valid parentheses
+
+- (NSInteger)longestValidParentheses:(NSString *)s;
+
 @end

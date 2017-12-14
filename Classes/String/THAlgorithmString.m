@@ -505,4 +505,81 @@
     }
 }
 
+#pragma mark - longest valid parentheses
+
+
+/**
+ 32. longest valid parentheses
+ https://leetcode.com/problems/longest-valid-parentheses/
+ 
+ 题意：
+ 找出最长的有效parentheses子串的长度
+ 
+ 解题思路：http://www.cnblogs.com/grandyang/p/4424731.html
+ 使用栈，并用start变量来记录合法括号串的起始位置，然后遍历当前字符串
+ 1. 遇到左括号，将其index入栈；
+ 2. 遇到右括号，
+    i: 如果当前栈为空，更新start到下一个位置，保证start指向第一个左括号
+    ii: 如果当前栈不为空，则先移除栈顶元素（为左括号），如果此时栈为空，则更新结果和i - start + 1中的较大值；如果此时栈不为空，则更新结果和i - last中的较大值
+
+ @param s 输入
+ @return 最长长度
+ */
+- (NSInteger)longestValidParentheses:(NSString *)s
+{
+//    return [self leetCodeLongestValidParentheses:s];
+    NSInteger longestRes = 0;
+    NSMutableArray *stack = [NSMutableArray array];
+    NSInteger start = 0;
+    for (NSInteger i = 0; i < s.length; i ++) {
+        //遇到左括号，则将当前的index加入到栈中
+        if ([s characterAtIndex:i] == '(') {
+            [stack addObject:@(i)];
+        } else {
+            //遇到右括号，如果当前栈为空，则更新start到下一个位置，保证start指向第一个合法括号串的起点
+            if (stack.count == 0) {
+                start = i + 1;
+            } else {
+                //如果栈不为空，则移除栈顶元素（栈顶一定是左括号）
+                [stack removeLastObject];
+                //如果移除栈顶后栈为空，则表示从start到当前index之间构成parentheses，从而更新最大长度
+                if (stack.count == 0) {
+                    longestRes = MAX(i - start + 1, longestRes);
+                } else {
+                    //如果移除栈顶后栈不为空，则表示剩余的栈顶（不包括栈顶）到当前index之间构成parentheses，从而更新最大长度
+                    NSInteger last = [stack.lastObject integerValue];
+                    longestRes = MAX(i - last, longestRes);
+                }
+            }
+        }
+    }
+    
+    return longestRes;
+}
+
+- (NSInteger)leetCodeLongestValidParentheses:(NSString *)s
+{
+    NSInteger longestRes = 0;
+    NSMutableArray *stack = [NSMutableArray array];
+    [stack addObject:@(-1)];
+    for (NSInteger i = 0; i < s.length; i ++) {
+        if ([s characterAtIndex:i] == '(') {
+            //遇到左括号，则将当前index入栈
+            [stack addObject:@(i)];
+        } else {
+            //遇到右括号，则移除栈顶
+            [stack removeLastObject];
+            if (stack.count == 0) {
+                //保证栈底是有效括号串的起始点的前一个index
+                [stack addObject:@(i)];
+            } else {
+                //如果栈不为空，则计算现在栈顶到i的长度
+                NSInteger last = [[stack lastObject] integerValue];
+                longestRes = MAX(longestRes, i - last);
+            }
+        }
+    }
+    return longestRes;
+}
+
 @end
